@@ -93,3 +93,7 @@ In all honesty though, there are some cases where it actually does make sense to
 Notice the distinction: Python allows you to use named parameters if/when you want to, whereas Swift SHOVES NAMED PARAMETERS DOWN YOUR THROAT ALL THE TIME, NO MATTER WHAT.
 
 If you want to disable named parameters, as any sane person would, you have to prepend "_ " to each parameter. This quickly clutters the code, making it much harder to read.
+
+# No Regex
+Swift: What's a regex?  
+Smart programmers that don't use Swift: 🖕

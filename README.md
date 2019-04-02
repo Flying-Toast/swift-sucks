@@ -87,7 +87,7 @@ But why the arbitrary restriction? All it does is make the code harder to read.
 _ Imagine _ having _ to _ put _ an _ underscore _ before _ every _ single _ word _ you _ type. _ Oh _ Wait. _ You _ don't _ have _ to _ imagine. _ You _ can _ just _ write _ some _ code _ in _ Swift.
 
 For some unfathomably stupid reason, function parameters in Swift default to being "named parameters".  
-"Named parameters" roughly translated from Swift-speak to English means "now, every single time you look up a function in the documentation, in addition to remembering the *name* of the function, you get the pleasure of remembering and additional identifier for every parameter the function takes".
+"Named parameters" roughly translated from Swift-speak to English means "now, every single time you look up a function in the documentation, in addition to remembering the *name* of the function, you get the pleasure of having to remember and additional identifier for every parameter the function takes".
 
 In all honesty though, there are some cases where it actually does make sense to use named parameters. Python sure understands that. Python allows you to optionally use named parameters.  
 Notice the distinction: Python allows you to use named parameters if/when you want to, whereas Swift SHOVES NAMED PARAMETERS DOWN YOUR THROAT ALL THE TIME, NO MATTER WHAT.

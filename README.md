@@ -55,3 +55,30 @@ Holy crap! What's all this?! Well, it looks like Swift has decided to be helpful
 `error: use of unresolved identifier 'sendMissileAlertTest()'. Did you mean 'sendATotallyRealDefinitelyNotADrillActualMissileAlert()'?`
 
 Also, whats up with all the errors printing twice? How is that helping anything?
+
+
+# error: multi-line string literal content must begin on a new line
+```Swift
+let swiftSucks = """I Hate
+Swift"""
+```
+This gives us the following wonderful error:
+```
+main.swift:1:19: error: multi-line string literal content must begin on a new line
+let myString = """I Hate
+                  ^
+main.swift:2:6: error: multi-line string literal closing delimiter must begin on a new line
+Swift"""
+     ^
+```
+(Here's that thing again with the double error messages. Weird.)
+
+Swift requires that multi-line strings be declared like this:
+```Swift
+let swiftIsBad = """
+I Hate
+Swift
+"""
+```
+
+But why the arbitrary restriction? All it does is make the code harder to read.

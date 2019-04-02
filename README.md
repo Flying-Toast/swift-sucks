@@ -52,7 +52,7 @@ public func _rint(_ x: Double) -> Double
 
 Holy crap! What's all this?! Well, it looks like Swift has decided to be helpful and show us every single function that is even remotely similar to "printz". Well, thanks for the effort, Swift, but I'd rather you just shut up and tell me what the problem is, and not try to fix it yourself.
 
-Also, whats up with all the errors printing twice? How is that helping anything?
+Also, what's up with all the errors printing twice? How is that helping anything?
 
 ___
 

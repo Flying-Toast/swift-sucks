@@ -105,7 +105,7 @@ Swift: What's Windows?
 Smart programmers that don't use Swift: 🖕
 
 # Meaningless Warnings
-Swift seems to think that in addition to actual warnings, compiler warnings should be used to tell the programmer about absolutely pointless things.
+Swift seems to think that in addition to actual warnings, compiler warnings should be used to tell the programmer about  pointless things too.
 ```Swift
 for i in 0 ... 10 {
 	print("Swift sucks.")

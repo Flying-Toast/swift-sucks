@@ -1,7 +1,7 @@
-# Swift Sucks
-Specific examples of swift sucking even more than usual:
+# Swift Sucks.
+Swift is a terrible language. If you didn't already know that, here is some proof:
 
-# Stupid enum syntax
+# Stupid `enum` Syntax
 ```Swift
 enum SwiftIsBad {
 	case swift
@@ -11,11 +11,11 @@ enum SwiftIsBad {
 ```
 What the hell is this `case` hullabaloo?! Here is one of the **many** places that Swift pointlessly overloads a keyword, in a way that makes no sense, has no correlation to other uses of the keyword, and doesn't help the programmer *or* the compiler.
 
-# No increment/deincrement operators
+# No Increment/Deincrement Operators
 
 ```Swift
 var a = 12
-a++ //NOPE!
+assert(++a == 13) //NOPE!
 ```
 These actually *were* implemented, but some really smart people decided that
 >"These operators increase the burden to learn Swift as a first programming language - or any other case where you don't already know these operators from a different language."
@@ -24,7 +24,7 @@ And so they were removed in Swift 3.0.
 
 Admittedly, it is actually does make sense why they would do this. After all, adding 1 to any given number is a hugely complex mathematical concept, which one could never expect any beginner to understand.
 
-# Bloated error messages
+# Bloated Error Messages
 (alright, this is actually a problem with the sucky compiler implementation, and not language itself, but still.)
 
 Lets try compiling this code:
@@ -52,9 +52,11 @@ public func _rint(_ x: Double) -> Double
 
 Holy crap! What's all this?! Well, it looks like Swift has decided to be helpful and show us every single function that is even remotely similar to "printz". Well, thanks for the effort, Swift, but I'd rather you just shut up and tell me what the problem is, and not try to fix it yourself.
 
-`error: use of unresolved identifier 'sendMissileAlertTest()'. Did you mean 'sendATotallyRealDefinitelyNotADrillActualMissileAlert()'?`
-
 Also, whats up with all the errors printing twice? How is that helping anything?
+
+___
+
+`error: use of unresolved identifier 'testMissileAlert()'. Did you mean 'sendATotallyRealDefinitelyNotADrillActualMissileAlert()'?`
 
 
 # error: multi-line string literal content must begin on a new line
@@ -84,10 +86,10 @@ Swift
 But why the arbitrary restriction? All it does is make the code harder to read.
 
 # Underscores Galore
-_ Imagine _ having _ to _ put _ an _ underscore _ before _ every _ single _ word _ you _ type. _ Oh _ Wait. _ You _ don't _ have _ to _ imagine. _ You _ can _ just _ write _ some _ code _ in _ Swift.
+_ Imagine _ having _ to _ put _ an _ underscore _ before _ every _ word _ you _ type. _ Oh _ Wait. _ You _ don't _ have _ to _ imagine. _ You _ can _ just _ write _ some _ code _ in _ Swift.
 
 For some unfathomably stupid reason, function parameters in Swift default to being "named parameters".  
-"Named parameters" roughly translated from Swift-speak to English means "now, every single time you look up a function in the documentation, in addition to remembering the *name* of the function, you get the pleasure of having to remember and additional identifier for every parameter the function takes".
+"Named parameters" roughly translated from Swift-speak to English means "now, every single time you look up a function in the documentation, in addition to remembering the *name* of the function, you get the pleasure of having to remember and additional identifier for every parameter the function takes!".
 
 In all honesty though, there are some cases where it actually does make sense to use named parameters. Python sure understands that. Python allows you to optionally use named parameters.  
 Notice the distinction: Python allows you to use named parameters if/when you want to, whereas Swift SHOVES NAMED PARAMETERS DOWN YOUR THROAT ALL THE TIME, NO MATTER WHAT.
@@ -103,7 +105,7 @@ Swift: What's Windows?
 Smart programmers that don't use Swift: 🖕
 
 # Meaningless Warnings
-Swift seems to think that compiler warnings should be used to tell the programmer about absolutely any issue, regardless of its importance.
+Swift seems to think that in addition to actual warnings, compiler warnings should be used to tell the programmer about absolutely pointless things.
 ```Swift
 for i in 0 ... 10 {
 	print("Swift sucks.")
@@ -115,6 +117,7 @@ main.swift:1:5: warning: immutable value 'i' was never used; consider replacing 
 for i in 0 ... 10 {
     ^
 ```
+This is equivalent to a police officer pulling you over to tell you that your shoes are untied.
 
 Shut up, Swift! Do you really think that anyone cares about that? If I wanted someone to review my code, I would have posted it on codereview.stackexchange.com.
 

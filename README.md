@@ -139,7 +139,7 @@ This shows the following warning at compilation:
 ```
 main.d(3): Warning: statement is not reachable
 ```
-Now **that** is a legitimate warning. We made a legitimate oopsie, and the D compiler gave us a kind notification about it.
+Now **that** is a legitimate warning - We made a legitimate oopsie, and the D compiler gave us a kind notification about it.
 
 C'mon Swift - is it really that hard to only give useful warnings?
 

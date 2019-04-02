@@ -142,3 +142,29 @@ main.d(3): Warning: statement is not reachable
 Now **that** is a legitimate warning. We made a legitimate oopsie, and the D compiler gave us a kind notification about it.
 
 C'mon Swift - is it really that hard to only give useful warnings?
+
+# `Array.count` instead of `Array.length`
+There are countless examples of stupid things in Swift that seem to exist for the sole purpose of making Swift different (in a bad way) from all of the *real* programming languages.
+
+One notable example of this is the `Array.count` property, which (not quite so) obviously calculates the *length* of the array. You see, all normal/good/real programming languages use the de facto standard `Array.length` instead.
+
+To further illustrate this, here is a really neat table:
+
+| Language | How to find length of an array | Does the language suck?
+|----------|--------------------------------|-----------------------|
+|JavaScript| `Array.length`     | No |
+|D         | `Array.length`     | No |
+|C         | TBH I have no idea | No |
+|C++       | Same as C          | No |
+|Java      | `Array.length`     | No |
+|Python    | `len(Array)`       | No |
+|Haskell   | `length Array`     | No |
+|C#        | `Array.Length`     | No |
+|Scratch   |![An array in Scratch](/scratchArray.png)| Undecided |
+|Ruby      | `Array.length`     | No |
+|Rust      | `Array.len()`      | No |
+|Nim       | `len(Array)`       | No |
+|Scala     | `Array.length`     | No |
+|**Swift** | `Array.count`      | **Yes** |
+
+Why does Swift always have to ruin everything?

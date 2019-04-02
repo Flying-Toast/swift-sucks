@@ -77,7 +77,7 @@ Swift"""
 
 Swift requires that multi-line strings be declared like this:
 ```Swift
-let swiftIsBad = """
+let swiftSucks = """
 I Hate
 Swift
 """

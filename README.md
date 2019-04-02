@@ -146,7 +146,7 @@ C'mon Swift - is it really that hard to only give useful warnings?
 # `Array.count` instead of `Array.length`
 There are countless examples of stupid things in Swift that seem to exist for the sole purpose of making Swift different (in a bad way) from all of the *real* programming languages.
 
-One notable example of this is the `Array.count` property, which (not quite so) obviously calculates the *length* of the array. You see, all normal/good/real programming languages use the de facto standard `Array.length` instead.
+One notable example of this is the `Array.count` property, which (not quite so) obviously calculates the *length* of the array. You see, all normal/good/real programming languages use the de facto standard `Array.length` (or similar) instead.
 
 To further illustrate this, here is a really neat table:
 

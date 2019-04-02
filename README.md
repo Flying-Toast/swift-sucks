@@ -1,5 +1,5 @@
-# swift-sucks
-Specific examples of swift sucking even more than usual.
+# Swift Sucks
+Specific examples of swift sucking even more than usual:
 
 # Stupid enum syntax
 ```Swift

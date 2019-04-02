@@ -65,7 +65,7 @@ Swift"""
 This gives us the following wonderful error:
 ```
 main.swift:1:19: error: multi-line string literal content must begin on a new line
-let myString = """I Hate
+let swiftSucks = """I Hate
                   ^
 main.swift:2:6: error: multi-line string literal closing delimiter must begin on a new line
 Swift"""

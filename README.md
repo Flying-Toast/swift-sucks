@@ -54,4 +54,4 @@ Holy crap! What's all this?! Well, it looks like Swift has decided to be helpful
 
 `error: use of unresolved identifier 'sendMissileAlertTest()'. Did you mean 'sendATotallyRealDefinitelyNotADrillActualMissileAlert()'?`
 
-Also, whats up with all the errors printing twice? How is that helpful?
+Also, whats up with all the errors printing twice? How is that helping anything?

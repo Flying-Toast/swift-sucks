@@ -1,5 +1,5 @@
 <h1 align="center">Swift Sucks.</h1>
-Swift is a terrible language. If you didn't already know that, here is some proof:
+Swift is a terrible programming language. If you didn't already know that, here is some proof:
 
 # Stupid `enum` Syntax
 ```Swift

@@ -23,3 +23,35 @@ These actually *were* implemented, but some really smart people decided that
 And so they were removed in Swift 3.0.
 
 Admittedly, it is actually does make sense why they would do this. After all, adding 1 to any given number is a hugely complex mathematical concept, which one could never expect any beginner to understand.
+
+# Bloated error messages
+(alright, this is actually a problem with the sucky compiler implementation, and not language itself, but still.)
+
+Lets try compiling this code:
+```Swift
+printz("Swift Sucks")
+```
+annnd...
+```
+main.swift:1:1: error: use of unresolved identifier 'printz'                                     
+printz("Swift Sucks")                                                                         
+^~~~~~                                                                                        
+Swift.print:1:13: note: did you mean 'print'?                                                 
+public func print(_ items: Any..., separator: String = default, terminator: String = default)
+            ^                                                                                 
+Swift.print:1:13: note: did you mean 'print'?                                                 
+public func print<Target>(_ items: Any..., separator: String = default, terminator: String = d
+efault, to output: inout Target) where Target : TextOutputStream                              
+            ^                                                                                 
+Swift._rint:1:13: note: did you mean '_rint'?                                                 
+public func _rint(_ x: Float) -> Float                                                        
+            ^                                                                                 
+Swift._rint:1:13: note: did you mean '_rint'?                                                 
+public func _rint(_ x: Double) -> Double     
+```
+
+Holy crap! What's all this?! Well, it looks like Swift has decided to be helpful and show us every single function that is even remotely similar to "printz". Well, thanks for the effort, Swift, but I'd rather you just shut up and tell me what the problem is, and not try to fix it yourself.
+
+`error: use of unresolved identifier 'sendMissileAlertTest()'. Did you mean 'sendATotallyRealDefinitelyNotADrillActualMissileAlert()'?`
+
+Also, whats up with all the errors printing twice? How is that helpful?

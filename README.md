@@ -168,3 +168,32 @@ To further illustrate this, here is a really neat table:
 |**Swift** | `Array.count`      | **Yes** |
 
 Why does Swift always have to ruin everything?
+
+# No Implicit Casting
+What happens if we try to compile this?
+```Swift
+let a: Int = 12
+let b: Double = 7.0
+
+print(a + b)
+```
+Oh no!
+```
+main.swift:4:9: error: binary operator '+' cannot be applied to operands of type 'Int' and 'Double'
+print(a + b)
+      ~ ^ ~
+main.swift:4:9: note: overloads for '+' exist with these partially matching parameter lists: (Double, Double), (Int, Int)
+print(a + b)
+        ^
+```
+("Why print 1 error when you can print it twice?" - Swift)
+
+Did you really expect something in Swift to behave normally? Of course not.  
+We actually have to do this:
+```Swift
+let a: Int = 12
+let b: Double = 7.0
+
+print(Double(a) + b)
+```
+Oh dear. It appears that our code has grown a big ugly tumor ☹️.

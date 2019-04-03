@@ -17,7 +17,7 @@ What the hell is this `case` hullabaloo?! Here is one of the **many** places tha
 var a = 12
 assert(++a == 13) //NOPE!
 ```
-These actually *were* implemented, but some really smart people decided that
+These actually *were* implemented at one point, but some really smart people decided that
 >"These operators increase the burden to learn Swift as a first programming language - or any other case where you don't already know these operators from a different language."
 
 And so they were removed in Swift 3.0.

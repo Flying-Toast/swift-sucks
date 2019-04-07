@@ -160,10 +160,10 @@ To further illustrate this, here is a really neat table (isn't it cool? I made i
 |Python    | `len(Array)`       | No |
 |Haskell   | `length Array`     | No |
 |C#        | `Array.Length`     | No |
+|Nim       | `Array.len`       | No |
 |Scratch   |![An array in Scratch](/scratchArray.png)| Undecided |
 |Ruby      | `Array.length`     | No |
 |Rust      | `Array.len()`      | No |
-|Nim       | `len(Array)`       | No |
 |Scala     | `Array.length`     | No |
 |**Swift** | `Array.count`      | **Yes** |
 

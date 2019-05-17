@@ -63,7 +63,8 @@ ___
 
 
 # error: multi-line string literal content must begin on a new line
-```Swift
+<!-- use rust highlighting so that the swift error isnt highlighted -->
+```Rust
 let swiftSucks = """I Hate
 Swift"""
 ```

@@ -1,4 +1,5 @@
-> "Swift is like all of Apple's products - it looks pretty sexy, but once you actually start using it, you realize that it is shit."<br>\- Benjamin Franklin
+> "Swift is like all of Apple's products - it looks pretty sexy, but once you actually start using it, you realize that it is shit."
+&nbsp;&nbsp;&nbsp;&nbsp;\- Benjamin Franklin
 
 <h1 align="center">Swift Sucks.</h1>
 

@@ -1,4 +1,8 @@
 <h1 align="center">Swift Sucks.</h1>
+
+> "Swift is like all of Apple's products - it looks pretty sexy, but once you actually start using it, you realize that it is shit."<br>
+\- Benjamin Franklin
+
 Swift is a terrible programming language. If you didn't already know that, here is some proof (in no particular order):
 
 # Stupid `enum` Syntax

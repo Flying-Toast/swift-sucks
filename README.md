@@ -124,26 +124,6 @@ This is equivalent to a police officer pulling you over to tell you that your sh
 
 Shut up, Swift! Do you really think that anyone cares about that? If I wanted someone to review my code, I would have posted it on codereview.stackexchange.com.
 
-___
-
-Let's take a look at what a *good* warning looks like. Unfortunately, we can't do this in Swift. To demonstrate a *good* compiler warning, we are going to need a *good* programming language. Let's use D.
-
-```D
-int dIsWayBetterThanSwift() {
-	return 8;
-	return 7; //This is an oopsie
-}
-
-void main() {
-	int result = dIsWayBetterThanSwift();
-}
-```
-This shows the following warning at compilation:
-```
-main.d(3): Warning: statement is not reachable
-```
-Now **that** is a legitimate warning - We made a legitimate oopsie, and the D compiler gave us a kind notification about it.
-
 C'mon Swift - is it really that hard to only give useful warnings?
 
 # `Array.count` instead of `Array.length`

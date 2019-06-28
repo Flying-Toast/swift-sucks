@@ -87,7 +87,7 @@ Swift
 """
 ```
 
-But why the arbitrary restriction? All it does is make the code harder to read.
+But why the arbitrary restriction? How is that helpful?
 
 # Underscores Galore
 _ Imagine _ having _ to _ put _ an _ underscore _ before _ every _ word _ you _ type. _ Oh _ Wait. _ You _ don't _ have _ to _ imagine. _ You _ can _ just _ write _ some _ code _ in _ Swift.

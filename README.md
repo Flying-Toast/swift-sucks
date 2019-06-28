@@ -125,8 +125,6 @@ This is equivalent to a police officer pulling you over to tell you that your sh
 
 Shut up, Swift! Do you really think that anyone cares about that? If I wanted someone to review my code, I would have posted it on codereview.stackexchange.com.
 
-C'mon Swift - is it really that hard to only give useful warnings?
-
 # `Array.count` instead of `Array.length`
 There are numerous examples of stupid things in Swift that seem to exist for the sole purpose of making Swift different (in a bad way) from all of the *real* programming languages.
 

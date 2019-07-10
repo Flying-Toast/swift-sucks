@@ -130,7 +130,7 @@ There are numerous examples of stupid things in Swift that seem to exist for the
 
 One notable example of this is the `Array.count` property, which (not quite so) obviously calculates the *length* of the array. You see, all normal/good/real programming languages use the de facto standard `Array.length` (or similar) instead.
 
-To further illustrate this, here is a really neat table (isn't it cool? I made it myself.):
+To further illustrate this, here is a really neat table:
 
 | Language | How to find length of an array | Does the language suck?
 |----------|--------------------------------|-----------------------|

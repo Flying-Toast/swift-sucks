@@ -181,6 +181,10 @@ print(Double(a) + b)
 Oh dear. It appears that our code has grown a big ugly tumor ☹️.
 
 # Xcode is Bad
-Xcode is proprietary. It only runs on Macs. Its huge (6.1GB!!! That's Visual Studio territory!).  
-It is also the only Swift IDE. This is explained by the "Swift IDE paradox" - a paradox which has twisted the minds of many great philosophers throughout history. The Swift IDE paradox goes something like this:  
-IDEs are written by smart people. **➜** Smart people don't use bad programming languages. **➜** Swift is a bad programming language. **➜** IDE writers don't use Swift. **➜** Therefore there are no Swift IDEs other than Xcode.
+Xcode is proprietary. It only runs on Macs. Its huge (6.1GB!!! That's Visual Studio territory!).
+It is also the source of the "Swift IDE paradox" - a paradox which has twisted the minds of many great philosophers throughout history. First discovered by Aristotle in 341 BC, the Swift IDE paradox goes something like this:  
+1. IDEs are programmed by smart people.
+2. Smart people don't use bad programming languages.
+3. Swift is a bad programming language.
+4. IDE programmers don't use Swift.
+Therefore, it is provably impossible for a Swift IDE to exist. But Xcode *does* exist, hence the paradox.

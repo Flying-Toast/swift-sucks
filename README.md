@@ -28,7 +28,7 @@ And so they were removed in Swift 3.0.
 Admittedly, it is actually does make sense why they would do this. After all, adding 1 to any given number is a hugely complex mathematical concept, which one could never expect any beginner to understand.
 
 # Bloated Error Messages
-(alright, this is actually a problem with the sucky compiler implementation, and not language itself, but still.)
+(alright, this is actually a problem with the sucky compiler implementation, and not the language itself, but still.)
 
 Lets try compiling this code:
 ```Swift

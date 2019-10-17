@@ -57,11 +57,6 @@ Holy crap! What's all this?! Well, it looks like Swift has decided to be helpful
 
 Also, what's up with all the errors printing twice? How is that helping anything?
 
-___
-
-`error: use of unresolved identifier 'testMissileAlert()'. Did you mean 'sendATotallyRealDefinitelyNotADrillActualMissileAlert()'?`
-
-
 # error: multi-line string literal content must begin on a new line
 <!-- use rust highlighting so that the swift error isnt highlighted -->
 ```Rust
